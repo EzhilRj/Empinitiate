@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Onboarding]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name=" InitiateEmployees(failed)" verbose="0">
+    <classes>
+      <class name="Onboard.AddOB">
+        <methods>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="EndReport"/>
+          <include name="setextent"/>
+          <include name="ADDINGEMPLOYEE"/>
+          <include name="Startbrowser"/>
+        </methods>
+      </class> <!-- Onboard.AddOB -->
+    </classes>
+  </test> <!--  InitiateEmployees(failed) -->
+</suite> <!-- Failed suite [Onboarding] -->
